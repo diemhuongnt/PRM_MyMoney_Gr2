@@ -46,5 +46,16 @@ public class activity_login extends AppCompatActivity {
             }
         });
 
+        // Tìm kiếm TextView cho Login
+        TextView tvHome = findViewById(R.id.btn_login);
+        tvHome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Chuyển sang màn hình Home
+                Intent intent = new Intent(activity_login.this, activity_home.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }

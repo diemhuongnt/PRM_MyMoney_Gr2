@@ -6,4 +6,6 @@
     <color name="orangePrimary">#FF8343</color>
     <color name="lightOrange">#F1DEC6</color>
     <color name="lighterOrange">#ffe6d9</color>
+    <color name="blue">#5cc2f2</color>
+    <color name="orangeLight">#FF9800</color>
 </resources>

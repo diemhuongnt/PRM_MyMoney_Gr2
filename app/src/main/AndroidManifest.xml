@@ -12,9 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyMoney"
         tools:targetApi="31">
-        <activity
-            android:name=".activity_forgetPass"
-            android:exported="false" />
+
         <activity
             android:name=".activity_launch"
             android:exported="true">
@@ -27,6 +25,9 @@
         <activity android:name=".activity_login" />
         <activity android:name=".MainActivity" />
         <activity android:name=".activity_signup" />
+        <activity android:name=".activity_addTransaction" />
+        <activity android:name=".activity_home" />
+        <activity android:name=".activity_forgetPass" />
     </application>
 
 </manifest>

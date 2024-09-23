@@ -13,7 +13,6 @@
         android:textSize="24sp"
         android:textColor="@color/black"
         android:textStyle="bold"
-        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="16dp" />
 
@@ -105,7 +104,8 @@
                 android:drawableTop="@drawable/ic_food"
                 android:textColor="@color/black"
                 android:background="@drawable/category_button_bg"
-                android:gravity="center" />
+                android:gravity="center"
+                android:singleLine="true"/>
 
             <Button
                 android:id="@+id/btn_houseware"
@@ -116,7 +116,8 @@
                 android:drawableTop="@drawable/ic_houseware"
                 android:textColor="@color/black"
                 android:background="@drawable/category_button_bg"
-                android:gravity="center" />
+                android:gravity="center"
+                android:singleLine="true"/>
 
             <Button
                 android:id="@+id/btn_clothes"
@@ -127,7 +128,8 @@
                 android:drawableTop="@drawable/ic_clothes"
                 android:textColor="@color/black"
                 android:background="@drawable/category_button_bg"
-                android:gravity="center" />
+                android:gravity="center"
+                android:singleLine="true"/>
 
             <Button
                 android:id="@+id/btn_cosmetic"
@@ -138,7 +140,8 @@
                 android:drawableTop="@drawable/ic_cosmetic"
                 android:textColor="@color/black"
                 android:background="@drawable/category_button_bg"
-                android:gravity="center" />
+                android:gravity="center"
+                android:singleLine="true"/>
 
             <Button
                 android:id="@+id/btn_exchange"
@@ -149,7 +152,8 @@
                 android:drawableTop="@drawable/ic_exchange"
                 android:textColor="@color/black"
                 android:background="@drawable/category_button_bg"
-                android:gravity="center" />
+                android:gravity="center"
+                android:singleLine="true"/>
 
             <Button
                 android:id="@+id/btn_medical"
@@ -160,7 +164,8 @@
                 android:drawableTop="@drawable/ic_medical"
                 android:textColor="@color/black"
                 android:background="@drawable/category_button_bg"
-                android:gravity="center" />
+                android:gravity="center"
+                android:singleLine="true"/>
 
             <Button
                 android:id="@+id/btn_education"
@@ -171,7 +176,8 @@
                 android:drawableTop="@drawable/ic_education"
                 android:textColor="@color/black"
                 android:background="@drawable/category_button_bg"
-                android:gravity="center" />
+                android:gravity="center"
+                android:singleLine="true"/>
 
             <Button
                 android:id="@+id/btn_electric"
@@ -182,18 +188,20 @@
                 android:drawableTop="@drawable/ic_electric_bill"
                 android:textColor="@color/black"
                 android:background="@drawable/category_button_bg"
-                android:gravity="center" />
+                android:gravity="center"
+                android:singleLine="true"/>
 
             <Button
                 android:id="@+id/btn_transportation"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
-                android:text="Transport..."
+                android:text="Transportation"
                 android:drawableTop="@drawable/ic_transportation"
                 android:textColor="@color/black"
                 android:background="@drawable/category_button_bg"
-                android:gravity="center" />
+                android:gravity="center"
+                android:singleLine="true"/>
 
             <Button
                 android:id="@+id/btn_housing"
@@ -204,7 +212,8 @@
                 android:drawableTop="@drawable/ic_housing_expenses"
                 android:textColor="@color/black"
                 android:background="@drawable/category_button_bg"
-                android:gravity="center" />
+                android:gravity="center"
+                android:singleLine="true"/>
 
             <Button
                 android:id="@+id/btn_contact_fee"
@@ -215,7 +224,8 @@
                 android:drawableTop="@drawable/ic_contact_fee"
                 android:textColor="@color/black"
                 android:background="@drawable/category_button_bg"
-                android:gravity="center" />
+                android:gravity="center"
+                android:singleLine="true"/>
 
             <Button
                 android:id="@+id/btn_edit"
@@ -226,12 +236,13 @@
                 android:drawableTop="@drawable/ic_edit"
                 android:textColor="@color/black"
                 android:background="@drawable/category_button_bg"
-                android:gravity="center" />
+                android:gravity="center"
+                android:singleLine="true"/>
         </GridLayout>
 
         <!-- Submit Button -->
         <Button
-            android:id="@+id/btn_submit"
+            android:id="@+id/btn_save"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Submit"

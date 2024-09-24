@@ -246,7 +246,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Submit"
-            android:backgroundTint="@color/orange"
+            android:backgroundTint="@color/black"
             android:textColor="@color/white"
             android:layout_marginTop="16dp" />
     </LinearLayout>

@@ -12,7 +12,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyMoney"
         tools:targetApi="31">
-
         <activity
             android:name=".activity_launch"
             android:exported="true">
@@ -28,6 +27,12 @@
         <activity android:name=".activity_addTransaction" />
         <activity android:name=".activity_home" />
         <activity android:name=".activity_forgetPass" />
+        <activity android:name=".activity_help"/>
+        <activity android:name=".activity_language"/>
+        <activity android:name=".activity_editNoti"/>
+        <activity android:name=".activity_editProfile"/>
+        <activity android:name=".activity_settings"/>
+        <activity android:name=".activity_statistics"/>
     </application>
 
 </manifest>

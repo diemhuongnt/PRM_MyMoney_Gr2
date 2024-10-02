@@ -4,30 +4,26 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/lightOrange"
-    android:gravity="center_horizontal">
+    android:gravity="center"
+    android:padding="16dp">
 
-    <!-- Phần trống phía trên để điều chỉnh vị trí -->
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1" /> <!-- Tạo không gian để hình ảnh và input nằm ở giữa -->
-
-    <!-- Vùng Hình Ảnh Ổ Khóa -->
+    <!-- Lock image -->
     <ImageView
         android:id="@+id/img_lock"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:src="@drawable/lock"
-        android:layout_marginBottom="16dp" /> <!-- Giảm khoảng cách dưới hình ảnh -->
+        android:layout_marginBottom="16dp" />
 
-    <!-- Vùng nhập username và password -->
+    <!-- Username and password input fields -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="24dp">
+        android:padding="16dp"
+        android:layout_marginTop="12dp">
 
-        <!-- Nhập username -->
+        <!-- Username input -->
         <EditText
             android:id="@+id/et_username"
             android:layout_width="match_parent"
@@ -35,9 +31,9 @@
             android:hint="Username"
             android:padding="12dp"
             android:background="@drawable/edit_text_bg"
-            android:layout_marginBottom="16dp"/>
+            android:layout_marginBottom="12dp" />
 
-        <!-- Nhập password -->
+        <!-- Password input -->
         <EditText
             android:id="@+id/et_password"
             android:layout_width="match_parent"
@@ -46,10 +42,10 @@
             android:inputType="textPassword"
             android:padding="12dp"
             android:background="@drawable/edit_text_bg"
-            android:layout_marginBottom="16dp"/>
+            android:layout_marginBottom="12dp" />
     </LinearLayout>
 
-    <!-- Dòng Forget Password -->
+    <!-- "Forget Password?" Text -->
     <TextView
         android:id="@+id/tv_forget_password"
         android:layout_width="wrap_content"
@@ -58,26 +54,30 @@
         android:textColor="@color/orange"
         android:textSize="16sp"
         android:textStyle="bold"
-        android:layout_marginBottom="16dp" />
+        android:layout_marginBottom="16dp"
+        android:gravity="center" />
 
-    <!-- Nút Log In -->
+    <!-- Log In Button -->
     <Button
         android:id="@+id/btn_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Log In"
-        android:layout_margin="24dp"
-        android:padding="12dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="28dp"
         android:backgroundTint="@color/black"
-        android:textColor="@color/white"
-        android:textSize="18sp" />
+        android:padding="10dp"
+        android:text="Login"
+        android:textColor="@color/white" />
 
-    <!-- Dòng Don't have an account? Sign Up -->
+    <!-- "Don't have an account? Sign Up" Text -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:gravity="center">
+        android:gravity="center"
+        android:layout_marginTop="12dp">
 
         <TextView
             android:id="@+id/tv_no_account"
@@ -85,7 +85,7 @@
             android:layout_height="wrap_content"
             android:text="Don't have an account?"
             android:textColor="@color/black"
-            android:textSize="16sp"/>
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/tv_sign_up"
@@ -97,9 +97,4 @@
             android:textStyle="bold" />
     </LinearLayout>
 
-    <!-- Phần trống phía dưới để căn chỉnh -->
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1" /> <!-- Tạo không gian bên dưới -->
 </LinearLayout>
